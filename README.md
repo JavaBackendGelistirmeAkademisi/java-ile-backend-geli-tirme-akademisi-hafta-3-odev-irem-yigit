@@ -5,7 +5,7 @@ Bu ödevin amacı, Java dilinde çeşitli veri yapıları ve interfaceleri kulla
   * Iterator ve Iterable arayüzlerinin etkin bir şekilde kullanımı.
   * Nesne yönelimli programlama (OOP) prensiplerinin uygulanması.
 ## İsterler:
-Basit işlevselliklere sahip bir Sosyal Medya Platformu simülasyonu geliştireceksiniz. Bu platform aşağıdaki temel özelliklere sahip olmalıdır:
+ * Basit işlevselliklere sahip bir Sosyal Medya Platformu simülasyonu geliştireceksiniz. Bu platform aşağıdaki temel özelliklere sahip olmalıdır:
 
 ## Kullanıcı Yönetimi
 
