@@ -8,15 +8,24 @@ Bu ödevin amacı, Java dilinde çeşitli veri yapıları ve interfaceleri kulla
 Basit işlevselliklere sahip bir Sosyal Medya Platformu simülasyonu geliştireceksiniz. Bu platform aşağıdaki temel özelliklere sahip olmalıdır:
 
 ##Kullanıcı Yönetimi
+
  * Kullanıcılar oluşturulabilir.
  * Kullanıcılar birbirlerini takip edebilir.
+
 ##Gönderi Yönetimi
+
  * Kullanıcılar gönderi oluşturabilir, gönderilere yorum yapabilir.
  * Gönderiler ve yorumlar, uygun veri yapıları kullanılarak saklanmalıdır.
+   
 ##Takip Sistemi
+
  * Kullanıcılar, takip ettikleri kişilerin gönderilerini bir akış (feed) üzerinde görebilirler.
+   
 ##Favoriler
+
  * Kullanıcılar beğendikleri gönderileri favorilere ekleyebilir.
+   
 ##Teknik Gereksinimler:
+
  * ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, LinkedHashMap gibi veri yapıları belirtilen amaçlarla kullanılmalıdır.
  * Iterator ve Iterable interfaceleri, collectionlar üzerinde dolaşmak için kullanılmalıdır.
