@@ -44,11 +44,22 @@ public class User {
 
     }
 
+    public Post getPost(int postId) {
+        return posts.get(postId);
+    }
+
     public void addToPostFavorites(User user, int postId){
         Post post = user.getPost(postId);
         if (post != null){
             favorites.add(post);
             System.out.println(name + ", " + user.getName() + "'in gönderisini beğendi"+ post.getContent());
+        }
+
+    }
+
+    public void showPosts(){
+        for (Post post : posts.values()){
+            System.out.println("Gönderi: " + post.getContent());
         }
 
     }
@@ -61,4 +72,5 @@ public class User {
 
 
     }
+
 }
